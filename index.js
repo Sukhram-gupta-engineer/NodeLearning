@@ -19,9 +19,9 @@
 // console.log('testing');
 // const http = require("http");
 // const color = require('colors');
-// http.createServer((req,res) =>{
-//         res.write("<h1>Hello This is Sukhram Gupta </h1>");
-//         res.write("<h1>This is first URL new</h1>".red);
-//         res.end();
-// }).listen(4000);
+http.createServer((req,res) =>{
+        res.write("<h1>Hello This is Sukhram Gupta </h1>");
+        res.write("<h1>This is first URL new</h1>".red);
+        res.end();
+}).listen(4000);
 console.log("hello");
